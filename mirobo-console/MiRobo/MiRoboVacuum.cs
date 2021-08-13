@@ -7,11 +7,7 @@ namespace mirobo_console
 {
     public class MiRoboVacuum : IDisposable
     {
-        // --ip 192.168.0.106 --token 6c54386f6e6938386634726362515538
-
-        const string ip = "192.168.0.106";
-        const string token = "6c54386f6e6938386634726362515538";
-        const string miroboPath = @"C:\Users\Senka\AppData\Roaming\Python\Python37\Scripts\mirobo.exe";
+        //todo: provide params from console
 
         private readonly IOutputProvider outputProvider = new ConsoleOutputProvider();
 
